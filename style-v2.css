@@ -65,3 +65,20 @@ footer {
     line-height: 1.6;
     color: #333;
 }
+
+.operator-logo {
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
+.operator-logo img {
+    height: 200px;
+    width: auto;
+    opacity: 0.9;
+}
+
+.operator-logo img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    transition: 0.2s ease;
+}
